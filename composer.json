@@ -1,0 +1,35 @@
+{
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    },
+    "require": {
+        "fabpot/goutte": "^3.2",
+        "workerman/workerman": "^3.3",
+        "nikic/fast-route": "^1.2",
+        "pimple/pimple": "^3.0",
+        "monolog/monolog": "^1.22",
+        "zendframework/zend-diactoros": "^1.3",
+        "mikehaertl/php-shellcommand": "^1.2",
+        "workerman/globaldata": "^1.0",
+        "workerman/gateway-worker": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Spider\\Server\\": "src/server/",
+            "Spider\\Handler\\": "src/handler/",
+            "Spider\\Crawler\\": "src/crawler/"
+        },
+        "files": [
+            "src/functions.php"
+        ]
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}

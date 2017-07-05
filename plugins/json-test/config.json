@@ -1,0 +1,5 @@
+{
+    "namespace": "Spider\\Plugin\\JsonTest",
+    "url": "http://192.168.1.203:5001/courseware/list/",
+    "type": "json"
+}

@@ -1,0 +1,3 @@
+my content is '''
+I'm test file of gridfs test
+'''

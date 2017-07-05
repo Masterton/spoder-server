@@ -1,0 +1,5 @@
+{
+    "namespace": "Spider\\Plugin\\GaoKao",
+    "url": "http://www.cqksy.cn/site/ShowClassArticleList.jsp?ClassID=200&KeyWord=&&Field=&Page=1",
+    "type": "html"
+}
